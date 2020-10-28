@@ -1,23 +1,21 @@
-pkgbase = ros-melodic-rosserial-client
+pkgbase = ros-noetic-rosserial-client
 	pkgdesc = ROS - Generalized client side source for rosserial.
-	pkgver = 0.8.0
-	pkgrel = 2
+	pkgver = 0.9.1
+	pkgrel = 1
 	url = https://wiki.ros.org/rosserial_client
 	arch = any
 	license = BSD
 	makedepends = cmake
 	makedepends = ros-build-tools
-	makedepends = ros-melodic-catkin
-	makedepends = ros-melodic-rosbash
-	depends = ros-melodic-rosserial-msgs
-	depends = ros-melodic-std-msgs
-	depends = ros-melodic-rospy
-	depends = ros-melodic-tf
-	depends = ros-melodic-rosunit
-	source = ros-melodic-rosserial-client-0.8.0.tar.gz::https://github.com/ros-drivers/rosserial/archive/0.8.0.tar.gz
-	source = ros-melodic-rosserial-client-0.8.0-c5e90cd.patch::https://github.com/ros-drivers/rosserial/commit/c5e90cdd34aafca9783addbd8e83364b0fef4579.patch
-	sha256sums = e96cdeb81e1c03fb1c5ad85a740cb0a1a0836c52a24c6a5d97c975084b49d576
-	sha256sums = 247974d9711161ab2a11ec281256b1c68b72238dd70f4f0d01fd845a6ff2e399
+	makedepends = ros-noetic-catkin
+	makedepends = ros-noetic-rosbash
+	depends = ros-noetic-rosserial-msgs
+	depends = ros-noetic-std-msgs
+	depends = ros-noetic-rospy
+	depends = ros-noetic-tf
+	depends = ros-noetic-rosunit
+	source = ros-noetic-rosserial-client-0.9.1.tar.gz::https://github.com/ros-drivers/rosserial/archive/0.9.1.tar.gz
+	sha256sums = 0e4dbb4d6e456c354ee04f552cc36b43d053dc3f5a8bbfccff7f8adf3ae48534
 
-pkgname = ros-melodic-rosserial-client
+pkgname = ros-noetic-rosserial-client
 
